@@ -10,9 +10,10 @@ const Work = () => {
          
     ]
   return (
-    <div className='w-full'>
+    <div className='w-full  mt-10 '>
         <div className='relative max-w-screen-xl mx-auto text-center '>
-            <h1 className='text-[30vw] leading-none font-medium select-none tracking-tight'>Work</h1>
+            <h1 className='text-[30vw] leading-none font-medium select-none '>work</h1>
+            <div className='text-1 text-zinc-400 '>Web Design, Webflow Development, Creative Devlopment</div>
             <div className='absolute top-0 w-full h-full'>
                 {
                     images.map((elem,index) => elem.isActive && (

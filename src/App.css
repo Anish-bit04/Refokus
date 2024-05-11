@@ -4,4 +4,10 @@
          url('/fonts/649d7ca1f5c7aa41f51eb483_satoshi-variable.woff2') format('woff2');
     /* Add more font formats if needed */
   }
+
+  *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+  }
   
