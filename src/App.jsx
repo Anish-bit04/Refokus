@@ -16,7 +16,7 @@ const App = () => {
       <Products/>
       <Marquees/>
       <Cards />
-     
+     <Footer/>
     </div>
   )
 }
