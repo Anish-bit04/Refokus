@@ -30,7 +30,7 @@ const Products = () => {
     ]
 
   return (
-    <div className='bg-zinc-900'>
+    <div className='bg-zinc-900 mt-15 '>
        {products.map((val,index) => <Product val={val}/>)}
     </div>
   )
