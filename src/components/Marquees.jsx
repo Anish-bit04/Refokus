@@ -10,7 +10,7 @@ const Marquees = () => {
     
   return (
     <div className='bg-zinc-900 '>
-        {images.map((logoImages,index)=> <Marquee imgurl={logoImages}/>)}
+        {images.map((logoImages,index)=> <Marquee key={index} imgurl={logoImages}/>)}
     </div>
   )
 }
