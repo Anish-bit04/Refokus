@@ -1,9 +1,11 @@
+import { motion } from 'framer-motion';
 import React from 'react'
 import { MdArrowRightAlt } from "react-icons/md";
 
-const Card = ({width,start,para,hover}) => {
+const Card = ({width,start,para,hover="false"}) => {
+    
   return (
-    <div className={`bg-zinc-800 p-5 rounded-xl hover:${hover} ${width} min-h-[26rem] flex flex-col justify-between`}>
+    <motion.div whileHover={{backgroundColor:hover ==="true" && "#7443ff",padding:'25px'}} className={`bg-zinc-800 p-5 rounded-xl  ${width} min-h-[26rem] flex flex-col justify-between`}>
         <div className='w-full'>
             <div className='w-full flex justify-between items-center'>
                 <h3>Get in Touch</h3>
@@ -26,7 +28,7 @@ const Card = ({width,start,para,hover}) => {
             }
 
         </div>
-    </div>
+    </motion.div>
   )
 }
 
