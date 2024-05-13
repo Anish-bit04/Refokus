@@ -26,7 +26,7 @@ const Products = () => {
       case: false,
     },
     {
-      title: "Like Magic",
+      title: "Magic",
       description:
         "We immersed ourselves in a 3D world we created to explain how Cula's platform collects data from carbon removal processes and converts them into carbon credit certificates.",
       live: true,
@@ -40,9 +40,9 @@ const Products = () => {
   }
 
   return (
-    <div className="bg-zinc-900 mt-15 relative">
+    <div  className="bg-zinc-900 mt-20 relative ">
       {products.map((val, index) => (
-        <Product key={index} val={val} mover={mover}count={index}/>
+        <Product key={index} val={val} mover={mover} count={index}/>
       ))}
       <div className="absolute top-0 w-full h-full pointer-events-none">
         <motion.div

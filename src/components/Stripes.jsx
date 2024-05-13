@@ -11,7 +11,7 @@ const Stripes = () => {
         {url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/63d6e83420934a94d642103b_NCC2021_LogoLockup%201.svg" , number:2}
     ]
   return (
-    <div className='flex items-center mt-[90px]'>
+    <div className='flex items-center mt-20'>
         {data.map((elem,index) =>(
             <Stripe key={index} val ={elem} />
         ))}
